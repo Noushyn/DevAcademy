@@ -1,0 +1,27 @@
+ .heroContainer{
+    background-color: #eee;
+}
+
+.heroImg{
+    background-color: #fff;
+    border-radius: 60% 40% 49% 51% / 60% 53% 47% 40% ;
+    width: 450px;
+} 
+
+
+.heroTitle{
+    font-family: 'Lalezar' ;
+    font-size: 30px;
+    text-align: center;
+    padding: 35px 0;
+}
+
+.startLearning{
+    padding: 30px 0;
+    text-align: left;
+    
+}
+
+.startLearning b{
+    font-size: 30px;
+}

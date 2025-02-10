@@ -1,0 +1,42 @@
+.searchSection1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.searchInput1 , .searchBtn{
+    all: unset;
+    border: 1px solid lightgray;
+    padding: 10px;
+
+}
+
+.searchBtn{
+    background-color: #dad7d7;
+    border-radius: 10px 0 0 10px;
+}
+
+.searchInput1{
+border-radius: 0 10px 10px 0;
+}
+
+.sortSection{
+    display: flex;
+    align-items: center;
+}
+
+.filterWrapper{
+    box-shadow: rgb(120 119 119 / 24%) 0px 3px 8px;
+    border-radius: 5px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.filterIcon{
+    padding-bottom: 16px;
+}
+
+.filterIcon b{
+    padding-right: 10px;
+}
