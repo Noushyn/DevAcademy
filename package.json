@@ -1,6 +1,7 @@
 {
   "name": "handsome-armin-app",
   "version": "0.1.0",
+  "homepage": "https://Noushyn.github.io/DevAcademy",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
