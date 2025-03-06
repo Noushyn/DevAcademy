@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+DevAcademy
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A frontend-focused web application for programming courses and articles, built with React, React Router DOM, and React-Bootstrap. The backend is powered by PHP, while data is fetched from external APIs using Axios.
 
-## Available Scripts
+🚀 Features
 
-In the project directory, you can run:
+🏠 Home Page
 
-### `npm start`
+Hero Section: Displays statistics about students, articles, and projects. The numbers animate from zero to the actual value using AOS and HeroBox.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Latest Courses & Articles: Showcases the most recent courses and articles in a Swiper carousel.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+📝 Articles Management
 
-### `npm test`
+Add New Articles: Users can create new articles by filling out input fields in the /create-article route.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+View & Manage Articles:
 
-### `npm run build`
+Articles are displayed in the /articles route.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Click "Read More" to view the full article.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Edit or delete articles directly from the article page.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Uses Axios with GET, POST, and PUT methods to interact with the real PHP database.
 
-### `npm run eject`
+Filters & Search:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Filter by longest, shortest, newest, and oldest articles.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Search by author name.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🎓 Courses Management
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Search Courses: Users can search courses by instructor name.
 
-## Learn More
+Category Filters: Filter courses by Frontend or Backend.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Course Status Filters:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Completed
 
-### Code Splitting
+Pre-sale
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+In Progress
 
-### Analyzing the Bundle Size
+🛠️ Installation & Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Clone the repository:
 
-### Making a Progressive Web App
+git clone https://github.com/Noushyn/DevAcademy.git
+cd DevAcademy
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Install dependencies:
 
-### Advanced Configuration
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Start the application:
 
-### Deployment
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+📌 Technologies Used
 
-### `npm run build` fails to minify
+React (Frontend framework)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+React Router DOM (Routing system)
+
+React-Bootstrap (UI components)
+
+Swiper (Carousel/slider)
+
+AOS (Animation on scroll)
+
+Axios (API requests)
+
+SweetAlert2 (User-friendly alerts)
+
+PHP (Backend & database management)
+
+⚠️ Note
+
+This project requires a backend (PHP) and cannot be hosted on GitHub Pages. To run it properly, set up a local development environment.
+
