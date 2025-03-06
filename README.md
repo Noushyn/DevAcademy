@@ -33,10 +33,6 @@ A **frontend-focused** web application for programming courses and articles, bui
    ```sh
    git clone https://github.com/Noushyn/DevAcademy.git
    cd DevAcademy
-Install dependencies:
-npm install
-Start the application:
-npm start
 
 ## 📌 Technologies Used
 - **Frontend**:
