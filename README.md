@@ -34,15 +34,10 @@ A **frontend-focused** web application for programming courses and articles, bui
    git clone https://github.com/Noushyn/DevAcademy.git
    cd DevAcademy
 Install dependencies:
-sh
-Copy
-Edit
 npm install
 Start the application:
-sh
-Copy
-Edit
 npm start
+
 📌 Technologies Used
 React (Frontend framework)
 React Router DOM (Routing system)
@@ -52,6 +47,7 @@ AOS (Animation on scroll)
 Axios (API requests)
 SweetAlert2 (User-friendly alerts)
 PHP (Backend & database management)
+
 ⚠️ Note
 This project requires a backend (PHP) and cannot be hosted on GitHub Pages. To run it properly, set up a local development environment.
 
