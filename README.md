@@ -38,15 +38,23 @@ npm install
 Start the application:
 npm start
 
-📌 Technologies Used
-React (Frontend framework)
-React Router DOM (Routing system)
-React-Bootstrap (UI components)
-Swiper (Carousel/slider)
-AOS (Animation on scroll)
-Axios (API requests)
-SweetAlert2 (User-friendly alerts)
-PHP (Backend & database management)
+## 📌 Technologies Used
+- **Frontend**:
+  - ![React](https://img.shields.io/badge/React-18.3.1-blue)
+  - ![React Router DOM](https://img.shields.io/badge/React%20Router%20DOM-7.0.2-blue)
+  - ![React-Bootstrap](https://img.shields.io/badge/React--Bootstrap-2.10.7-blue)
+  - ![Swiper](https://img.shields.io/badge/Swiper-11.2.0-orange)
+  - ![AOS](https://img.shields.io/badge/AOS-2.3.4-green)
+
+- **Backend**:
+  - ![PHP](https://img.shields.io/badge/PHP-Server--Side-purple)
+
+- **API & Data Handling**:
+  - ![Axios](https://img.shields.io/badge/Axios-1.7.9-yellow)
+
+- **UI Enhancements**:
+  - ![SweetAlert2](https://img.shields.io/badge/SweetAlert2-11.15.2-red)
+
 
 ⚠️ Note
 This project requires a backend (PHP) and cannot be hosted on GitHub Pages. To run it properly, set up a local development environment.
